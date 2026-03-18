@@ -2,8 +2,7 @@
 IF009 - Laboratorio de Programación y Lenguajes (UNTDF)
 TP 0: Git & GitHub Flow
 Script base para el Glosario Colaborativo
-"""
-
+""" 
 
 def mostrar_bienvenida():
     print("=" * 40)
@@ -30,25 +29,16 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
-# --- TAREA PARA EL ALUMNO ---
-# Instrucciones:
-# 1. Crea una rama 'feature-tu-termino'
-# 2. Crea una función nueva siguiendo el ejemplo de abajo
-# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
-
-
-def agregar_definicion_alumno():
-    """
-    EJEMPLO: El alumno debe renombrar esta función y completar su término.
-    """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+def glosario_vrm():
+    termino = "VRM"  # Reemplazar con el término asignado o elegido
+    definicion = """Un virtual enviroment (VRM) es una herramienta de python 
+          que nos permite crear una especie de 'sandbox' en el cual podemos realizar 
+          proyectos e instalar paquetes de python de forma segura."""
+          
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
+    glosario_vrm()
