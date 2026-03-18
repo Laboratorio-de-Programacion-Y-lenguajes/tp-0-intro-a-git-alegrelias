@@ -3,7 +3,12 @@ IF009 - Laboratorio de Programación y Lenguajes (UNTDF)
 TP 0: Git & GitHub Flow
 Script base para el Glosario Colaborativo
 """
-
+def django_funcion():
+    print("\n" + "=" * 25 + " Modificacion de Elias N. Alegre " + "=" * 25)
+    print("""
+          VRM: VRM o virtual enviroment es una herramienta de python 
+          que nos permite crear una especie de 'sandbox' en el cual podemos realizar 
+          proyectos e instalar paquetes de python de forma segura.""")
 
 def mostrar_bienvenida():
     print("=" * 40)
@@ -49,6 +54,4 @@ def agregar_definicion_alumno():
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
+    django_funcion()
