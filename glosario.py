@@ -29,13 +29,6 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
-# --- TAREA PARA EL ALUMNO ---
-# Instrucciones:
-# 1. Crea una rama 'feature-tu-termino'
-# 2. Crea una función nueva siguiendo el ejemplo de abajo
-# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
-
-
 def glosario_vrm():
     termino = "VRM"  # Reemplazar con el término asignado o elegido
     definicion = """Un virtual enviroment (VRM) es una herramienta de python 
